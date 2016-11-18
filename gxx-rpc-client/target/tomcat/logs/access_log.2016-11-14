@@ -1,0 +1,6 @@
+0:0:0:0:0:0:0:1 - - [14/Nov/2016:16:04:56 +0800] "GET /hello?name=aaa HTTP/1.1" 404 993 http-bio-8080-exec-1 686
+0:0:0:0:0:0:0:1 - - [14/Nov/2016:16:05:03 +0800] "GET / HTTP/1.1" 404 949 http-bio-8080-exec-7 4
+0:0:0:0:0:0:0:1 - - [14/Nov/2016:16:05:18 +0800] "GET /getUser?name=aaa HTTP/1.1" 404 997 http-bio-8080-exec-8 136
+0:0:0:0:0:0:0:1 - - [14/Nov/2016:16:05:29 +0800] "GET /getUsers?size=5 HTTP/1.1" 500 3925 http-bio-8080-exec-8 75
+0:0:0:0:0:0:0:1 - - [14/Nov/2016:16:05:46 +0800] "GET /updateUser?name=kaka HTTP/1.1" 404 1003 http-bio-8080-exec-7 33
+0:0:0:0:0:0:0:1 - - [14/Nov/2016:16:07:01 +0800] "GET /getUsers?size=5 HTTP/1.1" 404 999 http-bio-8080-exec-7 50433
